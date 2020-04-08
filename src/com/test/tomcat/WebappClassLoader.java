@@ -7,13 +7,9 @@ public class WebappClassLoader extends org.apache.catalina.loader.WebappClassLoa
 	
 	private static final org.apache.juli.logging.Log log = org.apache.juli.logging.LogFactory.getLog( WebappClassLoader.class );
 	
-	public WebappClassLoader() {
-		
-    }
-
-    public WebappClassLoader(final ClassLoader parent) {
-        super(parent);
-    }
+	public WebappClassLoader(ClassLoader classloader) {
+		super(classloader);
+	}
 
     @Override
     public void start() throws LifecycleException {
