@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<project default="package-jar">
+	<target name="package-jar">
+		<jar destfile="lib/custom-classloader-tomcat-8.5.jar">
+			<fileset dir="bin">
+			</fileset>
+		</jar>
+	</target>
+</project>
