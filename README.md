@@ -2,4 +2,5 @@
 
 custom webapp class loader for Tomcat 8.5 to load jar from common path (e.g  WEB-INF/commonLib)
 
-1) place custom-classloader-tomcat-8.5.jar in tomcat lib folder
+place custom-classloader-tomcat-8.5.jar in tomcat lib folder
+ 
